@@ -1,4 +1,4 @@
-# GLPI - Gestion des incidents et automatisation sur Windows Server
+# GLPI — Gestion des incidents et automatisation sur Windows Server
 
 Projet pratique réalisé dans le cadre de ma formation à **SUPINFO** (module *Windows Server and Cybersecurity Fundamentals*).
 
@@ -44,6 +44,12 @@ Le projet m'a également permis de résoudre plusieurs problèmes de configurati
 - Configuration **OpenSSL** pour la génération des clés.
 - Vérification du certificat de confiance pour la connexion **LDAPS**.
 - Utilisation des jetons **OAuth** et des requêtes HTTP pour créer des tickets via l'API.
+
+## Script PowerShell
+
+Le fichier **[GLPI-Ticket.ps1](GLPI-Ticket.ps1)** contient le script exécuté sur le poste **GLPI-CLIENT** pour vérifier l’espace disque et créer un ticket dans GLPI lorsque l’espace libre est inférieur ou égal à **5 %**.
+
+Les identifiants OAuth et GLPI sont chargés depuis un fichier local `glpi-credentials.xml`, **non inclus dans ce dépôt**. Le script est présenté à titre de démonstration dans l’environnement du projet et nécessite cette configuration pour fonctionner.
 
 ## Documentation
 
