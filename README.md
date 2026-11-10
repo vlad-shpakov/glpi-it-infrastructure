@@ -1,4 +1,4 @@
-# GLPI — Gestion des incidents et automatisation sur Windows Server
+# GLPI - Gestion des incidents et automatisation sur Windows Server
 
 Projet pratique réalisé dans le cadre de ma formation à **SUPINFO** (module *Windows Server and Cybersecurity Fundamentals*).
 
